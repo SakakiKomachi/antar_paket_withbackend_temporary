@@ -1,0 +1,13 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    background: linear-gradient(180deg, #289ED8 0%, #289ed8 100%);
+}
+
+.table th {
+    background-color: #289ED8;
+    color: white;
+}

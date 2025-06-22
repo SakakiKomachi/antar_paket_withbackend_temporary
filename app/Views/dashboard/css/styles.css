@@ -1,0 +1,188 @@
+:root {
+    --third: #E3ECF3;
+    --first: #289ED8;
+    --second: #41C9FF;
+    --fourth: #BCBBBB;
+}
+
+body {
+    min-width: 1200px;
+}
+
+.bg-first {
+    background-color: var(--first) !important;
+}
+
+.bg-second {
+    background-color: var(--second) !important;
+}
+
+.bg-third {
+    background-color: var(--third) !important;
+}
+
+.bg-fourth {
+    background-color: var(--fourth) !important;
+}
+
+.text-first {
+    color: var(--first) !important;
+}
+
+.text-second {
+    color: var(--second) !important;
+}
+
+.text-third {
+    color: var(--third) !important;
+}
+
+.text-fourth {
+    color: var(--fourth) !important;
+}
+
+.border-first {
+    border-color: var(--first) !important;
+}
+
+.border-third {
+    border-color: var(--third) !important;
+}
+
+.border-second {
+    border-color: var(--second) !important;
+}
+
+.border-fourth {
+    border-color: var(--fourth) !important;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-normal {
+    font-weight: 400 !important;
+}
+
+.img-auto {
+    width: 100%;
+    object-fit: contain;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.gradient {
+    background: rgb(40, 158, 216);
+    background: linear-gradient(360deg, rgba(40, 158, 216, 1) 0%, rgba(0, 212, 255, 0) 100%);
+}
+
+.w-fit {
+    width: fit-content;
+    width: --moz-fit-content;
+}
+
+.shadow-first {
+    box-shadow: 0px 0px 14px 4px rgba(65, 201, 255, 0.75);
+    -webkit-box-shadow: 0px 0px 14px 4px rgba(65, 201, 255, 0.75);
+    -moz-box-shadow: 0px 0px 14px 4px rgba(65, 201, 255, 0.75);
+}
+
+.shadow-second {
+    box-shadow: 0px 0px 10px 0px rgba(65, 201, 255, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(65, 201, 255, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(65, 201, 255, 0.75);
+}
+
+#side {
+    width: 250px;
+    min-height: 100vh;
+    position: relative;
+    z-index: 999;
+}
+
+#side img.logo {
+    max-width: 150px;
+    width: 100%;
+}
+
+#side .link {
+    border-radius: 20px 0 0 20px;
+}
+
+#side .link img {
+    width: 30px;
+}
+
+#main {
+    min-width: calc(1200px - 250px);
+    width: calc(100vw - 250px);
+}
+
+#main #nav .left input {
+    outline: none !important;
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+#main #nav .left>button {
+    margin-top: -5px;
+}
+
+#main #nav .left>button .red {
+    background-color: red;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    top: 4px;
+    right: 8px;
+}
+
+#main #nav .right img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#main #header .date label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#main #content .card-sm img {
+    height: 30px;
+}
+
+.btn-bordered {
+    border: 2px solid #000; 
+}
+
+.btn-modal-custom {
+    background-color: white;
+    text-align: center;
+    color: black;
+    border: 1px solid #000;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.btn-modal-custom:hover {
+    background-color: #BCBBBB;
+    border-color: #000;
+    cursor: pointer;
+}
